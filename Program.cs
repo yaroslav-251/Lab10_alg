@@ -89,3 +89,18 @@
 // {
 //     Console.WriteLine("Не найдено");
 // }
+// Допзадание
+string[] names = { "Ярик", "никитос", "Рита" };
+int g = 0;
+int n = 0;
+int[] grades = { 2, 5, 4 };
+for (int i = 0; i <= 2; i++)
+{
+    Console.WriteLine($"{names[i]} - {grades[i]}");
+    g += grades[i];
+    n += 1;
+
+}
+double j = ((double)g / n);
+Console.WriteLine(Math.Round(j, 2));
+
