@@ -11,7 +11,7 @@
 //     Console.WriteLine(grade);
 //     m += grade;
 // }
-// Console.WriteLine(m/grades.Length);
+// Console.WriteLine((double) m/grades.Length);
 
 // using System.Runtime.InteropServices.Marshalling;
 
@@ -71,21 +71,21 @@
 //     r += 1;
 // }
 // 5 вариант
-string[] h = { "Горе от ума", "Муму", "Колобок" };
-string k = "Муму";
-bool found = false;
-foreach (string r in h)
-{
-    if (k == r)
-    {
-        found = true;
-    }
-}
-if (found == true)
-{
-    Console.WriteLine("Найдено");
-}
-else
-{
-    Console.WriteLine("Не найдено");
-}
+// string[] h = { "Горе от ума", "Муму", "Колобок" };
+// string k = "Муму";
+// bool found = false;
+// foreach (string r in h)
+// {
+//     if (k == r)
+//     {
+//         found = true;
+//     }
+// }
+// if (found == true)
+// {
+//     Console.WriteLine("Найдено");
+// }
+// else
+// {
+//     Console.WriteLine("Не найдено");
+// }
